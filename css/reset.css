@@ -1,0 +1,39 @@
+:root {
+    --red: #ff7a7a;
+    --pink: #ff6289;
+    --green: #38cc8c;
+    --blue: #6055a5;
+    --dark-blue: #3e3c49;
+    --dark-green: #2ea672;
+    --grayish-blue: #b9b6d3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('../images/bg-intro-desktop.png');
+    background-color: var(--pink);
+}
+
+h1, span, p{
+    color: #fff;
+}
+
+input, button {
+    width: 100%;
+    height: 60px;
+    outline: 0;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.15s ease-in;
+}
+
+input {
+    padding: 0 24px;
+}
